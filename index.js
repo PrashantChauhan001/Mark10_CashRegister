@@ -37,9 +37,9 @@ const notesCount = () => {
         ten.innerText = Math.floor(returnCash / 10);
         returnCash = returnCash - 10 * ten.innerText;
         five.innerText = Math.floor(returnCash / 5);
-        returnCash = returnCash - 2000 * five.innerText;
+        returnCash = returnCash - 5 * five.innerText;
         one.innerText = Math.floor(returnCash / 1);
-        returnCash = returnCash - 2000 * one.innerText;
+        returnCash = returnCash - 1 * one.innerText;
         ot_txt.innerText = `Return amount is ${Math.floor(dummy)}. And minimum notes are:-`
         ot_txt.style.color = "green"
     }
