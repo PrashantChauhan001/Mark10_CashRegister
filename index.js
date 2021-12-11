@@ -46,3 +46,10 @@ const notesCount = () => {
 }
 
 document.getElementById("btn").addEventListener("click", () => notesCount());
+
+const optionalExe = () => {
+    if (document.getElementById("bill").value)
+        document.getElementById("cashDiv").style.display = "block"
+    else
+        document.getElementById("cashDiv").style.display = "none"
+}
