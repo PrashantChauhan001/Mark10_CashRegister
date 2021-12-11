@@ -14,7 +14,7 @@ const notesCount = () => {
         cash = document.getElementById("cash").value,
         bill = document.getElementById("bill").value;
     if (!bill || !cash) {
-        ot_txt.innerText = "Enter empty field";
+        ot_txt.innerText = "Enter value in empty field";
         ot_txt.style.color = "red"
         notesCountArr.map(ele => ele.innerText = 0);
         return;
@@ -43,8 +43,6 @@ const notesCount = () => {
         ot_txt.innerText = `Return amount is ${Math.floor(dummy)}. And minimum notes are:-`
         ot_txt.style.color = "green"
     }
-    console.log("run", bill, cash)
-    ot_txt = "helllo"
 }
 
 document.getElementById("btn").addEventListener("click", () => notesCount());
