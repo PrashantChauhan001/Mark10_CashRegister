@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash Register | Mark10</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cash Register Manager</h1>
+        <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+    </header>
+    <section>
+        <label for="amount" class="lable">Bill Amount:</label>
+        <input name="amount" type="number" class="text-field" id="bill" />
+        <label for="payed" class="lable">Cash Given:</label>
+        <input name="payed" type="number" class="text-field" id="cash" />
+        <button type="button" class="btn" id="btn">Check</button>
+    </section>
+    <section>
+        <h2 id="ot_txt"></h2>
+        <table class="table">
+            <tr s>
+                <td style="width: 6rem;">No. of Notes</td>
+                <td class="notes" id="tt"></td>
+                <td class="notes" id="fh"></td>
+                <td class="notes" id="oh"></td>
+                <td class="notes" id="twenty"></td>
+                <td class="notes" id="ten"></td>
+                <td class="notes" id="five"></td>
+                <td class="notes" id="one"></td>
+            </tr>
+            <tr>
+                <td>Note</td>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>05</td>
+                <td>01</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>Copyrights &copy; | 2021 | Prashant Chauhan</p>
+        <ul>
+            <a href="https://github.com/PrashantChauhan001">github</a>
+            <a href="https://www.linkedin.com/in/prashant-chauhan-reactjs-developer/">LinkedIn</a>
+            <a href="https://www.instagram.com/pnc439/">Instagram</a>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
